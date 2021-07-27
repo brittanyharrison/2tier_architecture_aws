@@ -4,9 +4,7 @@ We will be creating a 2-tier architecture by launching and setting up 2 EC2 inst
 ![img](img/x.png)
 
 ```
-**Note:** If you are unsure how to launch a ec2 instance please follow this [link]. 
-```
-
+**Note:** If you are unsure how to launch a ec2 instance please follow this [link](https://github.com/brittanyharrison/aws_cloud_computing)
 # EC2 instance for DB
 
 ### Connect db 
@@ -106,4 +104,5 @@ Now we must crerate an enironment varaiable toconnect to the DB using:
  sudo echo "export DB_HOST=mongodb://54.171.49.157:27017/posts" >> ~/.bashrc
  source ~/.bashrc
  ```
+
 
