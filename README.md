@@ -3,12 +3,12 @@ We will be creating a 2-tier architecture by launching and setting up 2 EC2 inst
 
 ![img](img/x.png)
 
-```
 **Note:** If you are unsure how to launch a ec2 instance please follow this [link](https://github.com/brittanyharrison/aws_cloud_computing)
 # EC2 instance for DB
 
 ### Connect db 
 To connect the database to our nodeapp using MongoDB, you should run the following commands:
+
 ```
 wget -qO - https://www.mongodb.org/static/pgp/server-3.2.asc | sudo apt-key add -
 
@@ -27,7 +27,6 @@ sudo mkdir -p /data/db
  sudo systemctl enable mongod
 
  sudo service mongod start
-
 
 ```
 
