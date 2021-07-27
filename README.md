@@ -89,7 +89,7 @@ server {
     server_name _;
 
     location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://63.32.46.106:3000;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -103,7 +103,7 @@ server {
 Now we must crerate an enironment varaiable toconnect to the DB using:
 
 ```
- sudo echo "export DB_HOST=mongodb:http://172.31.45.161:27017/posts" >> ~/.bashrc
+ sudo echo "export DB_HOST=mongodb://54.171.49.157:27017/posts" >> ~/.bashrc
  source ~/.bashrc
  ```
 
