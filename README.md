@@ -103,7 +103,7 @@ server {
 Now we must crerate an enironment varaiable toconnect to the DB using:
 
 ```
- sudo echo "export DB_HOST=mongodb://172.31.45.161:27017/posts" >> ~/.bashrc
+ sudo echo "export DB_HOST=mongodb:http://172.31.45.161:27017/posts" >> ~/.bashrc
  source ~/.bashrc
  ```
 
